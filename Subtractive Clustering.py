@@ -10,7 +10,7 @@ from sklearn.cluster import KMeans
 import scipy.spatial.distance as distance
 from scipy.spatial.distance import cdist
 
-path = "C:/Users/Leo/Documents/Pre blackboard/Semester 1 17-18/Data Prog with Python/Project 2/data.csv"
+path = "C:/Users/data.csv"
 df = pd.read_csv(path, header=None, names = ['X1', 'X2', 'X3'])
 print(df.head())
 print(df.describe())
